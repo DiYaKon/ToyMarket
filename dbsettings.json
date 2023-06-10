@@ -1,0 +1,5 @@
+{//Файл-посилання з'єднання з нашою БД
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\MSSQLLocalDB;Database=Shop;Trusted_Connection=True;MultipleActiveResultSets=true"
+  }
+}

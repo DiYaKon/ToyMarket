@@ -1,0 +1,11 @@
+﻿@model HomeViewModel
+
+<div class="row mt-5 mb-2">
+    <h2>Улюблені іграшки</h2>
+    @{
+    foreach (Toy toy in Model.favToys)
+    {
+        @Html.Partial("AllToys", toy) /*шаблон який буде використано (тут AllToys що знаходиться в Shared)*/
+    }
+    }
+</div>
